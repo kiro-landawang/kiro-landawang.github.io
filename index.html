@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>懒大王</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 背景层 -->
+  <div class="bg-layer">
+    <div class="grid"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+    <div class="stars"></div>
+  </div>
+
+  <!-- 鼠标光晕 + 粒子画布 -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- 主容器 -->
+  <main class="wrap">
+    <!-- 角色区 -->
+    <section class="hero">
+      <div class="avatar-frame">
+        <div class="avatar-ring"></div>
+        <img src="assets/avatar.jpg" alt="avatar" class="avatar" />
+        <div class="zzz">z<span>z</span><i>z</i></div>
+      </div>
+      <h1 class="title">
+        <span class="title-main">懒大王</span>
+        <span class="title-sub">— 还在睡 · 戳一下下面</span>
+      </h1>
+    </section>
+
+    <!-- 按钮网格 -->
+    <section class="nav-grid" id="navGrid">
+      <!-- JS 动态渲染占位按钮 -->
+    </section>
+
+    <!-- 赞赏 / 施舍 -->
+    <section class="donate">
+      <p class="donate-title">施主行善施舍施舍............</p>
+      <div class="donate-grid">
+        <div class="pay-card">
+          <img src="assets/donate-wechat.jpg" alt="微信赞赏码" />
+          <span>微信赞赏</span>
+        </div>
+        <div class="pay-card">
+          <img src="assets/donate-alipay.jpg" alt="支付宝收款码" />
+          <span>支付宝</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="foot">
+      <span>© 2026 landawang</span>
+      <span class="dot">·</span>
+      <span>TG联系：<b class="tg-id">@LANGDAWANG6</b></span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -14,7 +14,7 @@
    ----------------------------------- */
 const NAV_ITEMS = [
   { title: "kiro 官网直达", desc: "购卡通道",   url: "http://aceyun.cn/shop/TCJZZCXC",       icon: "✦", cls: "c-purple" },
-  { title: "全项目直达",     desc: "备用购卡",   url: "https://ohhua.deees.cn/shop/LANDAWAN", icon: "◆", cls: "c-cyan"   },
+  { title: "全项目直达",     desc: "备用购卡",   url: "https://buy.jry0.com/shop/LANDAWANG", icon: "◆", cls: "c-cyan"   },
   { title: "kiro 下载链接",  desc: "夸克网盘",   url: "https://pan.quark.cn/s/f0a0655f63a9",  icon: "✧", cls: "c-mint"   },
   { title: "kiro抽奖",        desc: "每日抽奖",   url: "https://cj.hysafe.top/",                icon: "✪", cls: "c-orange" },
   { title: "闲聊Q群",        desc: "加入群聊",   url: "https://qm.qq.com/q/tYDT4ldGpy",       icon: "✪", cls: "c-blue"   },
